@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.741)), url('../images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 70px;
+    height: auto;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 200px 0;
+}
+.header-context h1{
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.btn-group{
+    margin: 20px 0;
+}
+.btn-group a{
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: brown;
+    color: white;
+    text-transform: capitalize;
+}
+.btn-group a:last-child{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+    margin: 0 20px;
+}
+.btn-group a:last-child:hover{
+    background-color: brown;
+    color: white;
+}
+.btn-group a:first-child:hover{
+    border: 1px solid brown;
+    background-color: transparent;
+    color: brown;
+}
